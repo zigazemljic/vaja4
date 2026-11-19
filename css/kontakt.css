@@ -1,0 +1,36 @@
+.obrazec {
+  max-width: 500px;
+}
+
+.polje {
+  margin-bottom: var(--razmik-srednji);
+}
+
+.polje label {
+  display: block;
+  margin-bottom: var(--razmik-majhen);
+  font-weight: bold;
+}
+
+.polje input,
+.polje textarea,
+.polje select {
+  width: 100%;
+  padding: var(--razmik-majhen);
+  border: 1px solid var(--primarna);
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.gumb {
+  background-color: var(--primarna);
+  color: var(--nevtralna);
+  border: none;
+  padding: var(--razmik-majhen) var(--razmik-srednji);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gumb:hover {
+  background-color: #6c3483;
+}

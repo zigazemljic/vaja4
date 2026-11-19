@@ -1,0 +1,33 @@
+.razdelek {
+  border-bottom: 2px solid var(--sekundarna);
+  padding-bottom: var(--razmik-majhen);
+  margin-top: var(--razmik-velik);
+}
+
+.tabela-okvir {
+  overflow-x: auto;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela th {
+  background-color: var(--primarna);
+  color: var(--nevtralna);
+  text-align: left;
+}
+
+.tabela td {
+  border: 1px solid var(--sekundarna);
+}
+
+.tabela tbody tr:nth-child(even) {
+  background-color: var(--sekundarna);
+}
+
+.pomembno {
+  color: var(--primarna);
+  font-weight: bold;
+}

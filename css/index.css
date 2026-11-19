@@ -1,0 +1,40 @@
+.uvod {
+  background-color: var(--sekundarna);
+  padding: var(--razmik-velik);
+  text-align: center;
+  margin-bottom: var(--razmik-velik);
+}
+
+.uvod h1 {
+  margin-top: 0;
+}
+
+.gumb {
+  display: inline-block;
+  background-color: var(--primarna);
+  color: var(--nevtralna);
+  padding: var(--razmik-majhen) var(--razmik-srednji);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.gumb:hover {
+  background-color: #6c3483;
+}
+
+.vsebinski-sklopi {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--razmik-srednji);
+}
+
+@media (min-width: 768px) {
+  .vsebinski-sklopi {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.slika img {
+  display: block;
+  border-radius: 5px;
+}

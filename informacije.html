@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<title>Frizerski salon Tanja-info</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/informacije.css">
+</head>
+<body>
+
+<header class="glava">
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
+<tr>
+<td align="left">
+<a href="index.html"><button type="button">Frizerski Salon Tanja</button></a>
+</td>
+<td align="right">
+<a href="dejavnost.html">Dejavnosti</a> | 
+<a href="informacije.html">Informacije</a> | 
+<a href="kontakt.html">Kontakt</a>
+</td>
+</tr>
+</table>
+</header>
+
+<main class="vsebina">
+
+<h2 class="razdelek">Naslov</h2>
+<p>Plintovec 7b</p>
+<p>Spodnja Kungota</p>
+
+<h2 class="razdelek">Delovni čas</h2>
+
+<div class="tabela-okvir">
+<table class="tabela" border="1" cellpadding="8" cellspacing="0">
+<thead>
+<tr>
+<th>Dan</th>
+<th>Delovni čas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ponedeljek</td>
+<td>08:00 – 15:00</td>
+</tr>
+<tr>
+<td>Torek</td>
+<td>12:00 – 19:00</td>
+</tr>
+<tr>
+<td>Sreda</td>
+<td>08:00 – 15:00</td>
+</tr>
+<tr>
+<td>Četrtek</td>
+<td>12:00 – 19:00</td>
+</tr>
+<tr>
+<td>Petek</td>
+<td>08:00 – 15:00</td>
+</tr>
+<tr>
+<td>Sobota</td>
+<td>08:00 – 12:00 (po dogovoru)</td>
+</tr>
+<tr>
+<td>Nedelja in prazniki</td>
+<td class="pomembno">Zaprto</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="kalkulator-okvir" style="margin-top: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 8px;">
+    <h3>Kalkulator rasti las</h3>
+    <p>Izračunaj, koliko časa potrebuješ do svoje sanjske dolžine frizure!</p>
+    
+    <label for="trenutna-dolzina">Trenutna dolžina las (v cm):</label><br>
+    <input type="number" id="trenutna-dolzina" value="10" min="1"><br><br>
+
+    <label for="ciljna-dolzina">Želena dolžina las (v cm):</label><br>
+    <input type="number" id="ciljna-dolzina" value="25" min="1"><br><br>
+
+    <button type="button" id="gumb-izracunaj">Izračunaj čas rasti</button>
+    
+    <p id="rezultat-izracuna" style="font-weight: bold; margin-top: 10px; color: #333;"></p>
+</div>
+
+</main>
+
+<footer class="noga">
+<p>© Frizerski salon Tanja</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

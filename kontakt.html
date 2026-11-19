@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<title>Frizerski salon Tanja-kontakt</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/kontakt.css">
+</head>
+<body>
+
+<header class="glava">
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
+<tr>
+<td align="left">
+<a href="index.html"><button type="button">Frizerski Salon Tanja</button></a>
+</td>
+<td align="right">
+<a href="dejavnost.html">Dejavnosti</a> | 
+<a href="informacije.html">Informacije</a> | 
+<a href="kontakt.html">Kontakt</a>
+</td>
+</tr>
+</table>
+</header>
+
+<main class="vsebina">
+
+<form class="obrazec" action="#" method="post">
+
+<p class="polje">
+<label for="ime">Ime in priimek:*</label><br>
+<input type="text" id="ime" name="ime_priimek" required placeholder="Vnesite ime">
+</p>
+
+<p class="polje">
+<label for="email">E-poštni naslov:*</label><br>
+<input type="email" id="email" name="eposta" required placeholder="primer@domena.si">
+</p>
+
+<p class="polje">
+<label for="sporocilo">Vaše sporočilo:*</label><br>
+<textarea id="sporocilo" name="sporocilo" required placeholder="Napišite sporočilo..."></textarea>
+</p>
+
+<p class="polje">
+<label for="razlog">Razlog za stik:*</label><br>
+<select id="razlog" name="razlog_stika" required>
+<option value="" disabled selected>-- Izberite razlog --</option>
+<option value="narocanje">Naročanje na termin</option>
+<option value="informacije">Splošne informacije ali cene</option>
+<option value="pohvala_pripomba">Pohvala ali pripomba</option>
+<option value="drugo">Drugo</option>
+</select>
+</p>
+
+<button class="gumb" type="submit">Pošlji</button>
+
+</form>
+
+</main>
+
+<footer class="noga">
+<p>© Frizerski salon Tanja</p>
+</footer>
+
+</body>
+</html>
